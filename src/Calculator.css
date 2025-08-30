@@ -1,0 +1,45 @@
+.container{
+    width: 400px;
+}
+
+/* in screen show the final Operation number */
+.screen{
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: right;
+    background: #03045e;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 100px;
+    height: 80px;
+    outline: 0;
+    color: white;
+    background-color: #0077b6;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid rgb(92, 92, 92);
+}
+
+/* operators buttons and clear */
+
+.color{
+    background: #00b4d8;
+    color: #262834;
+    font-weight: bold;
+
+}
+
+/* equal and clear buttons widths equal to 200px */
+
+.twoCol{
+    width: 200px;
+}
